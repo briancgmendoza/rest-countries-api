@@ -1,0 +1,19 @@
+.search-bar {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.search-bar.dark-mode {
+  border: none;
+  background-color: var(--white);
+}
+
+.search-bar.dark-mode input {
+  color: var(--very-dark-blue-lm);
+}
