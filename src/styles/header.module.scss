@@ -1,0 +1,26 @@
+.header-wrapper {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--very-dark-blue-lm);
+  background-color: var(--white);
+}
+
+.header-wrapper.dark-mode {
+  color: var(--white);
+  background-color: var(--dark-blue-dm);
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.span-toggle {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
