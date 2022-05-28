@@ -1,0 +1,9 @@
+.container {
+  color: var(--very-dark-blue-lm);
+  background-color: var(--white);
+}
+
+.container.dark-mode {
+  color: var(--white);
+  background-color: var(--very-dark-blue-dm);
+}
