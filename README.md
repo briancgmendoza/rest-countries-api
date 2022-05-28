@@ -1,2 +1,4 @@
 # rest-countries-api
-Wokr in progress..
+Work in progress..
+
+Re-creating my first personal project. One of Frontend Mentor Challenge.
