@@ -6,6 +6,7 @@ import classNames from "classnames";
 import ThemeContext from "./store/theme-context";
 import styles from "./styles/app.module.scss";
 import Header from "./components/Header";
+import Homepage from "./routes/Homepage";
 
 const App = () => {
   const ctx = React.useContext(ThemeContext);
@@ -17,6 +18,9 @@ const App = () => {
       })}
     >
       <Header />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
     </div>
   );
 };

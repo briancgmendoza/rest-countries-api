@@ -1,0 +1,47 @@
+.centered {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.focused {
+  width: 50%;
+  height: 100vh;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.all-countries-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+
+  .cards {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      height: 60%;
+      object-fit: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  }
+}
